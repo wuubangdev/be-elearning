@@ -22,4 +22,9 @@ public class StudentServiceImpl implements StudentService {
         Student student = studentRepository.save(StudentMapper.toStudent(studentDto));
         return StudentMapper.toStudentInfoDto(student);
     }
+
+    @Override
+    public StudentInfoDto updateStudent(StudentDto studentDto) {
+        return null;
+    }
 }

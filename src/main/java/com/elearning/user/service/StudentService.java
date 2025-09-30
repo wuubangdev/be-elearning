@@ -5,4 +5,5 @@ import com.elearning.user.dto.StudentInfoDto;
 
 public interface StudentService {
     public StudentInfoDto createStudent(StudentDto studentDto);
+    public StudentInfoDto updateStudent(StudentDto studentDto);
 }
